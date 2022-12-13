@@ -10,11 +10,14 @@
   border: 1px solid white; }
 
 body header .barraHeader {
-  background-color: rgba(0, 0, 0, 0.776); }
+  background-color: rgba(0, 0, 0, 0.7); }
   body header .barraHeader .linkHeader {
+    font-size: larger;
+    padding: 0.5rem 1rem;
+    margin: 0rem 2rem;
     color: white; }
 
-body header .video {
+body .video {
   position: absolute;
   top: 0;
   left: 0;
@@ -23,20 +26,21 @@ body header .video {
   margin: 0;
   object-fit: cover; }
 
-body header .capa {
+body .capa {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.8);
-  opacity: 0.5;
+  background-color: rgba(0, 0, 0, 0.654);
+  opacity: 0.6;
   mix-blend-mode: overlay; }
 
-body header .tituloHeader {
+body .tituloHeader {
   position: relative;
   color: white; }
 
-body main .sub {
-  z-index: 2;
-  position: relative; }
+main .slide .carousel-inner .carousel-item .imagenSlide {
+  margin-top: 2rem;
+  width: 100%;
+  height: 80vh; }
