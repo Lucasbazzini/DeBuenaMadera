@@ -40,7 +40,14 @@ body .tituloHeader {
   position: relative;
   color: white; }
 
-main .slide .carousel-inner .carousel-item .imagenSlide {
-  margin-top: 2rem;
-  width: 100%;
-  height: 80vh; }
+main .slide {
+  padding-right: 5rem;
+  padding-left: 5rem; }
+  main .slide .carousel-inner .carousel-item .imagenSlide {
+    height: 85vh;
+    width: 100%; }
+
+@media (max-width: 540px) {
+  main .slide .carousel-inner .carousel-item .imagenSlide {
+    height: 40vh;
+    width: 100%; } }
