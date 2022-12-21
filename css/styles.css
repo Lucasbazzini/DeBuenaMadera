@@ -5,15 +5,6 @@
   font-family: 'Roboto', sans-serif;
 }
 
-hr{
-  margin: 5rem 10rem;
-}
-@media (max-width:1400px){
-  hr{
-    margin: 5rem 5rem;
-  }
-}
-
 .body{
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../assets/img/fondo.jpg);
   object-fit: cover;
@@ -44,7 +35,7 @@ hr{
 .slider{
   filter: brightness(50%);
   width: 100%;
-  height: 90vh;
+  height: 92vh;
   object-fit: cover;
 }
 
@@ -86,65 +77,95 @@ hr{
   
 }
 
-.grilla{
-  background-color: rgba(0, 0, 0, 0.4);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 4rem;
-  border-radius: 0.4rem;
+.sectionGrilla{
+  background-color: #383838;
+  height: 200vh;
+  width: 100%;
 }
 
+
+.grilla{
+  display: flex;
+}
+
+.nosotros-grilla{
+  text-decoration: none;
+  border: 1px solid rgb(121, 121, 121);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 50vh;
+  text-align: center;
+  color: rgb(240, 240, 240);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("../assets/img/boss.png");
+  background-size: cover;
+  object-fit: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  border-top-left-radius: 1rem;
+}
+
+.nosotros-grilla:hover{
+  color: #b6b6b6;
+}
+
+.info-nueva-grilla{
+  text-decoration: none;
+  border: 1px solid rgb(121, 121, 121);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 50vh;
+  text-align: center;
+  color: rgb(240, 240, 240);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("../assets/img/InfoNueva.jpg");
+  background-size: cover;
+  object-fit: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-top-right-radius: 1rem;
+}
+
+.info-nueva-grilla:hover{
+  color: #b6b6b6;
+}
+
+.galeriaGrilla{
+  text-decoration: none;
+  border: 1px solid rgb(121, 121, 121);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 40vh;
+  text-align: center;
+  color: rgb(240, 240, 240);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("../assets/img/galeria2.jpg");
+  background-size: cover;
+  object-fit: cover;
+  background-position:   center  ;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.galeriaGrilla:hover{
+color: #b6b6b6;
+}
+
+
 .tituloGrilla{
-  margin-top: 3rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: lighter;
 }
 
 .textoGrilla{
-  margin: 4rem 1rem;
-  line-height: 1.5rem;
+  margin: 0rem 5rem;
+  font-weight: lighter;
 }
 
-.pedidos{
-  height: 90vh;
-  margin-right: 1rem;
-  text-align: center;
-  border-radius: 0.3rem;
-  color: rgb(242, 242, 242);
-  width: 50%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/img/InfoNueva.jpg");
-  object-fit: cover;
-  background-size: cover;
-  background-position: center center;
-}
-
-.nosotros{
-  height: 60vh;
-  margin-left: 1rem;
-  text-align: center;
-  border-radius: 0.3rem;
-  color: rgb(242, 242, 242);
-  width: 50%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/img/boss.png");
-  object-fit: cover;
-  background-size: cover;
-  background-position: center center;
-}
-
-@media (max-width: 450px){
-  
-  .grilla{
-    display: flex;
-    flex-direction: column;
+@media (max-width:450px){
+  .textoGrilla{
+    margin: 0rem 2rem;
   }
-  .pedidos{
-    margin: 2rem 0rem;
-    height: 50vh;
-    width: 100%;
-  }
-  .nosotros{
-    margin: 2rem 0rem;
-    height: 50vh;
-    width: 100%;
-  }
-  
 }
