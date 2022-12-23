@@ -122,10 +122,11 @@ header{
   text-align: center;
   font-weight: 100;
 }
-@media (max-width:425px){
+@media (max-width:450px){
   .tituloPrincipal{
     line-height: 3rem;
   }
+  
 }
 
 .grilla{
@@ -233,3 +234,55 @@ color: #d6d6d6;
   }
 }
 
+.subtitulo{
+  line-height: 4.5rem;
+  color: white;
+  text-align: center;
+  font-weight: 100;
+}
+
+@media (max-width:450px){
+  .subtitulo{
+    line-height: 3rem;
+  }
+}
+
+.imagenMedioambiente{
+  width: 100%;
+}
+
+@media (max-width:768px) {
+  .imgMedioambiente{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .imagenMedioambiente{
+    height: 20rem;
+    width: 20rem;
+    
+  }
+  
+}
+
+.contenidoMedioambiente{
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.tituloMedioambiente{
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+.textoMedioambiente{
+  color: white;
+  line-height: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
