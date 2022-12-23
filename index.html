@@ -4,10 +4,13 @@
   <title>De Buena Madera</title>
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link 
+  rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 
-<body >
+<body class="animate__animated animate__fadeIn">
   <div class="cajaVideo">
     <video autoplay muted loop>
       <source src="./assets/videos/fondo.mp4" type="video/mp4">
@@ -92,25 +95,28 @@
       <div class="container">
         <div class="row grilla">
             <hr  style="margin-top:5rem; margin-bottom: 5rem;" class="border-light opacity-100">
-
-            <a href="" class="col-md-6 nosotros-grilla">
-              <h3 class="tituloGrilla">
-                Nosotros
-              </h3>
-              <p class="textoGrilla">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quae reiciendis praesentium nostrum eos voluptatum
-              </p>
-            </a> 
-            <a href="" class="col-md-6 info-nueva-grilla">
+            <div data-aos="flip-up"data-aos-duration="2000"data-aos-delay="130">
+              <a href="" class="col-md-12 nosotros-grilla">
+                <h3 class="tituloGrilla">
+                  Nosotros
+                </h3>
+                <p class="textoGrilla">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quae reiciendis praesentium nostrum eos voluptatum
+                </p>
+              </a> 
+            </div>
+            <div data-aos="flip-up"data-aos-duration="2000"data-aos-delay="130">
+            <a href="" class="col-md-12 info-nueva-grilla">
               <h3 class="tituloGrilla">
                 Últimos lanzamientos
               </h3>
               <p class="textoGrilla">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quae reiciendis praesentium nostrum eos voluptatum 
               </p>              
-            </a>        
+            </a> 
+          </div>       
           </div>
-          <div class="row">
+          <div data-aos="flip-up"data-aos-duration="2000"data-aos-delay="130">
             <a href="" class="col-md-12 galeriaGrilla">
               <h3 class="tituloGrilla">
                 Galería
@@ -126,17 +132,10 @@
     <section >
       <div class="container">
         <div class="row"> 
-          
-          <div>
-
-          </div>
-          <div>
-
-          </div>
-          
-
-
-
+        
+          <h3>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita qui quos laboriosam et. Cum repellendus, adipisci harum eius assumenda doloremque commodi facilis alias maiores ullam corrupti aperiam earum consequuntur impedit?lore
+          </h3>
           <hr  style="margin-top:5rem; margin-bottom: 5rem;" class="border-light opacity-100">
         </div>
       </div>
@@ -149,5 +148,7 @@
   </footer>
 
   <script src="./js/bootstrap.bundle.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
 </body>
 </html>
