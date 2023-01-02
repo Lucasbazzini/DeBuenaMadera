@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
   <title>De Buena Madera</title>
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/styles.css">
@@ -10,8 +11,7 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link rel="stylesheet" href="./css/fontello.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
-  
+  <link rel="icon" href="./assets/img/favicon.ico">
   
 </head>
 
@@ -28,16 +28,17 @@
     <nav style="background-color: rgba(0, 0, 0, 0.564);" class="navbar navbar-expand-lg  barraHeader">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="./assets/img/logo.png" alt="Logo" width="60" height="60" class="d-inline-block">
+          <img src="./assets/img/logo.png" alt="Logo" width="100" height="100" class="d-inline-block" style="padding: 0%; margin: -15%; margin-left: 10px;">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
           <div class="navbar-nav mx-auto">
-            <a class="nav-link linkNav" href="#">Home</a>
-            <a class="nav-link linkNav" href="#">Features</a>
-            <a class="nav-link linkNav" href="#">Pricing</a>
+            <a class="nav-link linkNav" href="#">Inicio</a>
+            <a class="nav-link linkNav" href="#">Lanzamientos</a>
+            <a class="nav-link linkNav" href="./pages/galeria.html">Galería</a>
+            <a class="nav-link linkNav" href="#">Nosotros</a>
           </div>
         </div>
       </div>
@@ -59,7 +60,7 @@
           <div class="carousel-caption  d-md-block textoSlide">
             <h1 class="tittle animate__animated animate__slideInRight" >First slide label<br>
             Some representative placeholder content for the first slide.</h1>
-            <a  class="btn botonSlider" href="#" role="button">Link</a>
+            
             
           </div>
         </div>
@@ -68,7 +69,7 @@
           <div class="carousel-caption  d-md-block textoSlide ">
             <h1 class="tittle animate__animated animate__slideInRight">First slide label<br>
             Some representative placeholder content for the first slide.</h1>
-            <a  class="btn botonSlider" href="#" role="button">Link</a>
+           
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="4000">
@@ -76,7 +77,7 @@
           <div class="carousel-caption  d-md-block textoSlide">
             <h1 class="tittle animate__animated animate__slideInRight">First slide label<br>
             Some representative placeholder content for the first slide.</h1>
-            <a class="btn botonSlider" href="#" role="button">Link</a>
+            
           </div>
         </div>
       </div>
@@ -103,16 +104,6 @@
         <div class="row grilla">
             <hr  style="margin-top:5rem; margin-bottom: 5rem;" class="border-light opacity-100">
             <div data-aos="flip-up"data-aos-duration="2000"data-aos-delay="130">
-              <a href="" class="col-md-12 nosotros-grilla">
-                <h3 class="tituloGrilla">
-                  Nosotros
-                </h3>
-                <p class="textoGrilla">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quae reiciendis praesentium nostrum eos voluptatum
-                </p>
-              </a> 
-            </div>
-            <div data-aos="flip-up"data-aos-duration="2000"data-aos-delay="130">
             <a href="" class="col-md-12 info-nueva-grilla">
               <h3 class="tituloGrilla">
                 Últimos lanzamientos
@@ -122,24 +113,32 @@
               </p>              
             </a> 
           </div>       
-          </div>
           <div data-aos="flip-up"data-aos-duration="2000"data-aos-delay="130">
             <a href="" class="col-md-12 galeriaGrilla">
-              <h3 class="tituloGrilla">
-                Galería
-              </h3>
-              <p class="textoGrilla">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quae reiciendis praesentium nostrum eos voluptatum
-              </p>
-            </a> 
+                <h3 class="tituloGrilla">
+                  Galería
+                </h3>
+                <p class="textoGrilla">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quae reiciendis praesentium nostrum eos voluptatum
+                </p>
+              </a> 
+            </div>
+            <div data-aos="flip-up"data-aos-duration="2000"data-aos-delay="130">
+              <a href="" class="col-md-12 nosotros-grilla">
+                <h3 class="tituloGrilla">
+                  Nosotros
+                </h3>
+                <p class="textoGrilla">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quae reiciendis praesentium nostrum eos voluptatum
+                </p>
+              </a> 
+            </div>
           </div>
             <hr  style="margin-top:5rem; margin-bottom: 5rem;" class="border-light opacity-100"> 
           
       </div>
     </section>
     <section >
-      
-
       <div class="container">
         <div class="row  contenidoMedioambiente">
           <div class="col-md-8">
@@ -162,10 +161,10 @@
           <h4 style="font-weight: lighter;text-align: start;">
             ¿A dónde quiere ir?
           </h4>
-            <a class="linkFooter" href="">Inicio</a>
-            <a class="linkFooter" href="">Nosotros</a>
+            <a class="linkFooter" href="#">Inicio</a>
             <a class="linkFooter" href="">Últimos Lanzamientos</a>
-            <a class="linkFooter" href="">Galería</a>
+            <a class="linkFooter" href="./pages/galeria.html">Galería</a>
+            <a class="linkFooter" href="">Nosotros</a>
         </div>
         
         <div class="col-md-4 seccionRedes">
@@ -187,7 +186,7 @@
           <h4 style="font-weight: lighter; text-align: center;">
             Nuestro taller
           </h4>
-          <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d853.5481700923378!2d-64.30289451188958!3d-31.15992799883746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x209c191041f0768e!2zMzHCsDA5JzM1LjciUyA2NMKwMTgnMDguNSJX!5e0!3m2!1ses-419!2sar!4v1672108948343!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe class="mapa"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d853.5467090162413!2d-64.30272371187348!3d-31.160090198837473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943281bd56e79a3d%3A0x3741bc629b3b9656!2sCam.%20del%20Cuadrado%20292%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1672680019546!5m2!1ses-419!2sar" width="80%" height="100%" style="border-radius: 3px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div style="text-align: center; padding-top: 1rem;">
           <p>
