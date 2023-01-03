@@ -47,7 +47,8 @@ header{
 
 
 .linkNav{
-  color: white;
+  
+  color: rgb(255, 255, 255);
   margin-right: 2rem;
   font-weight: lighter;
   font-size: 1.5em;
@@ -55,6 +56,7 @@ header{
 }
 
 .linkNav::after{
+  color: white;
   content: "";
   position: absolute;
   right: 0;
@@ -69,6 +71,7 @@ header{
 }
 
 .linkNav:hover::after{
+ 
   transform-origin: left;
   transform: scaleX(1);
 }
@@ -218,7 +221,7 @@ header{
   height: 50vh;
   text-align: center;
   color: rgb(255, 255, 255);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url("../assets/img/galeria2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url("../assets/img/galeria.jpg");
   background-size: cover;
   object-fit: cover;
   background-position: center 20%  ;
@@ -414,4 +417,3 @@ footer{
     height: 100%;
   }
   }
-

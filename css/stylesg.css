@@ -4,10 +4,12 @@
     box-sizing: border-box; 
     font-family: 'Roboto', sans-serif;
   }
+
   header{
     z-index: 1;
-    position: sticky ; 
-    top: 0;
+  }
+  body{
+    overflow-x: hidden;
   }
   .barraHeader .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28 255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); 
@@ -16,8 +18,12 @@
     border: 1px solid rgb(255, 255, 255); 
   }
 
+  .animate__animated.animate__fadeIn {
+    --animate-duration: 1.5s;
+  }
+
   body{
-    background-color: #c2c2c2;
+    background-color: #484848;
   }
 
 .linkNav{
@@ -51,15 +57,93 @@
     color: #d9d9d9;
   }
 
+  .gridGaleria{
+    
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
 
+  .rowLarge{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .rowLarge img {
+    cursor: pointer;
+    border: 2px solid rgb(211, 211, 211);
+    margin: 1rem;
+    width:22vw;
+    height: 30vh;
+    object-fit: cover;
+    transition: 1s;
+  }
+  .rowLarge img:hover{
+    transform: scale(1.1);
+  }
 
+  .rowShort{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 
+  .rowShort img{
+    cursor: pointer;
+    border: 2px solid rgb(211, 211, 211);
+    margin: 1rem;
+    width:30vw;
+    object-fit: cover;
+    transition: 1s;
+  }
 
+  .rowShort img:hover{
+    transform: scale(1.1);
+  }
+  @media (max-width:1200px){
+    .rowLarge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .rowLarge img{
+        width: 90%;
+    }
+    .rowShort{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .rowShort img{
+        width: 90%;
+    }
+  }
+  
 
-
-
-
-
+  .ful-img{
+    width: 100%;
+    height: 100vh;
+    background-color:  rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+  }
+  .ful-img img{
+    width: 90%;
+    max-width: 1000px;
+  }
+  .ful-img span{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
 
 
 
@@ -128,4 +212,5 @@
       width: 100%;
       height: 100%;
     }
-    }
+}
+

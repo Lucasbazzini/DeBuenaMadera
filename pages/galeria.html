@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/stylesg.css">
 </head>
-<body>
+<body class="animate__animated animate__fadeIn">
     <header>
         <nav style="background-color: rgba(0, 0, 0, 0.564);" class="navbar navbar-expand-lg  barraHeader">
           <div class="container-fluid">
@@ -27,10 +27,10 @@
             </button>
             <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
               <div class="navbar-nav mx-auto">
-                <a class="nav-link linkNav" href="../index.html">Inicio</a>
-                <a class="nav-link linkNav" href="#">Lanzamientos</a>
-                <a class="nav-link linkNav" href="#">Galería</a>
-                <a class="nav-link linkNav" href="#">Nosotros</a>
+                <a style="color: white;" class="nav-link linkNav" href="../index.html">Inicio</a>
+                <a style="color: white;" class="nav-link linkNav" href="#">Lanzamientos</a>
+                <a style= "color: rgb(182, 182, 182);" class="nav-link linkNav" href="#">Galería</a>
+                <a style="color: white;" class="nav-link linkNav" href="#">Nosotros</a>
               </div>
             </div>
           </div>
@@ -39,6 +39,30 @@
 
       <main>
 
+            <div class="ful-img" id="fulImgBox">
+                <img src="../assets/img/galeria1.jpg" id="fulImg" alt="">
+                <span onclick="closeImg()">X</span>
+            </div>
+
+            <div class="row gridGaleria">
+                <div class="rowLarge">
+                    <img src="../assets/img/galeria1.jpg" onclick="openFulImg(this.src)" alt="">
+                    <img src="../assets/img/galeria2.jpg" onclick="openFulImg(this.src)" alt="">
+                    <img src="../assets/img/galeria3.jpg" onclick="openFulImg(this.src)" alt="">
+                    <img src="../assets/img/galeria4.jpg" onclick="openFulImg(this.src)" alt="">
+                </div>
+                <div class="rowShort">
+                    <img src="../assets/img/galeria5.png" onclick="openFulImg(this.src)" alt="">
+                    <img src="../assets/img/galeria6.png" onclick="openFulImg(this.src)" alt="">
+                    <img src="../assets/img/galeria7.png" onclick="openFulImg(this.src)" alt="">
+                </div>
+                <div class="rowLarge">
+                    <img src="../assets/img/galeria8.png" onclick="openFulImg(this.src)" alt="">
+                    <img src="../assets/img/galeria9.png" onclick="openFulImg(this.src)" alt="">
+                    <img src="../assets/img/galeria10.png" onclick="openFulImg(this.src)" alt="">
+                    <img src="../assets/img/galeria11.png" onclick="openFulImg(this.src)" alt="">
+                </div>
+            </div>      
       </main>
 
       <footer>
@@ -81,5 +105,7 @@
           </div>
         </div>
     </footer>
+    <script src="../js/back.js"></script>
+    <script src="../js/bootstrap.bundle.js"></script>
 </body>
 </html>
