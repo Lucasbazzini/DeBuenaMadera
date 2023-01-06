@@ -221,10 +221,11 @@ header{
   height: 50vh;
   text-align: center;
   color: rgb(255, 255, 255);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url("../assets/img/galeria.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url("../assets/img/posible.jpg");
   background-size: cover;
   object-fit: cover;
-  background-position: center 20%  ;
+  background-position: center center ;
+
   background-repeat: no-repeat;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;

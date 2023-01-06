@@ -71,7 +71,7 @@
   }
   .rowLarge img {
     cursor: pointer;
-    border: 2px solid rgb(211, 211, 211);
+    border: 2px solid rgb(191, 191, 191);
     margin: 1rem;
     width:22vw;
     height: 30vh;
@@ -90,7 +90,7 @@
 
   .rowShort img{
     cursor: pointer;
-    border: 2px solid rgb(211, 211, 211);
+    border: 2px solid rgb(191, 191, 191);
     margin: 1rem;
     width:30vw;
     object-fit: cover;
