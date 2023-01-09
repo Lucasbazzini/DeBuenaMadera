@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box; 
   font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
 }
 
 header{
@@ -125,12 +126,12 @@ header{
   }
 
   .tittle{
-    font-size: 2rem;
-    line-height: 3.5rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
 
   }
   .slider{
-    height: 80vh;
+    height: 60vh;
   }
 }
 
@@ -225,10 +226,7 @@ header{
   background-size: cover;
   object-fit: cover;
   background-position: center center ;
-
   background-repeat: no-repeat;
-  border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
   border-radius: 0.5rem;
 }
 
@@ -411,6 +409,7 @@ footer{
   align-items: center;
 
 }
+
 
 @media (max-width:450px){
   .mapa{
