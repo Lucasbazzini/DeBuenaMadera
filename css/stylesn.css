@@ -85,9 +85,6 @@
 
 
    @media (max-width:525px) {
-    .creadores{
-        height: 70vh;
-    }
     .title h1{
         font-size: 30px;
         margin: 0rem 1rem;
