@@ -174,7 +174,7 @@ header{
   height: 50vh;
   text-align: center;
   color: rgb(255, 255, 255);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url("../assets/img/boss.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url("../assets/img/boss.jpg");
   background-size: cover;
   object-fit: cover;
   background-position: center 20%;
