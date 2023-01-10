@@ -124,13 +124,14 @@ header{
   }
 
   .tittle{
-    font-size: 1.6rem;
-    line-height: 2rem;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
 
   }
   .slider{
     height: 60vh;
   }
+  
 }
 
 @media (max-width:425px){
