@@ -1,108 +1,127 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galería DBM</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap" rel="stylesheet">
-    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="../css/fontello.css">
-    <link rel="icon" href="../assets/img/favicon.ico">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/stylesg.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería DBM</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="../css/fontello.css">
+  <link rel="icon" href="../assets/img/favicon.ico">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/stylesg.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X2MSDKF0Z7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-X2MSDKF0Z7');
+  </script>
 </head>
+
 <body class="animate__animated animate__fadeIn">
-    <header>
-        <nav style="background-color: rgba(0, 0, 0, 0.564);" class="navbar navbar-expand-lg  barraHeader">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">
-              <img src="../assets/img/logo.png" alt="Logo" width="100" height="100" class="d-inline-block" style="padding: 0%;  margin-left: 10px;">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-              <div class="navbar-nav mx-auto">
-                <a style="color: white;" class="nav-link linkNav" href="../index.html">Inicio</a>
-                <a style="color: white;" class="nav-link linkNav" href="../pages/ultimos_lanzamientos.html">Lanzamientos</a>
-                <a style= "color: rgb(182, 182, 182);" class="nav-link linkNav" href="#">Galería</a>
-                <a style="color: white;" class="nav-link linkNav" href="../pages/nosotros.html">Nosotros</a>
-              </div>
-            </div>
-          </div>
-        </nav>
-      </header>
-
-      <main>
-
-            <div class="ful-img" id="fulImgBox">
-                <img src="../assets/img/galeria1.jpg" id="fulImg" alt="">
-                <span onclick="closeImg()">X</span>
-            </div>
-
-            <div class="row gridGaleria">
-                <div class="rowLarge">                  
-                    <img src="../assets/img/galeria1.jpg" onclick="openFulImg(this.src)" alt="">
-                    <img src="../assets/img/galeria2.jpg" onclick="openFulImg(this.src)" alt="">
-                    <img src="../assets/img/galeria3.jpg" onclick="openFulImg(this.src)" alt="">
-                    <img src="../assets/img/galeria4.jpg" onclick="openFulImg(this.src)" alt="">
-                </div>
-                <div class="rowShort">
-                    <img src="../assets/img/galeria5.png" onclick="openFulImg(this.src)" alt="">
-                    <img src="../assets/img/galeria6.png" onclick="openFulImg(this.src)" alt="">
-                    <img src="../assets/img/galeria7.png" onclick="openFulImg(this.src)" alt="">
-                </div>
-                <div class="rowLarge">
-                    <img src="../assets/img/galeria8.png" onclick="openFulImg(this.src)" alt="">
-                    <img src="../assets/img/galeria9.png" onclick="openFulImg(this.src)" alt="">
-                    <img src="../assets/img/galeria10.png" onclick="openFulImg(this.src)" alt="">
-                    <img src="../assets/img/galeria11.png" onclick="openFulImg(this.src)" alt="">
-                </div>
-            </div>      
-      </main>
-
-      <footer>
-        <div style="background-color: rgba(0, 0, 0, 0.798);" class="row fondoFooter">
-          <div class="col-md-4 seccionLinks">
-            <h4 style="font-weight: lighter;text-align: start;">
-              ¿A dónde quiere ir?
-            </h4>
-              <a class="linkFooter" href="../index.html">Inicio</a>
-              <a class="linkFooter" href="../pages/ultimos_lanzamientos.html">Últimos Lanzamientos</a>
-              <a class="linkFooter" href="#">Galería</a>
-              <a class="linkFooter" href="../pages/nosotros.html">Nosotros</a>
-          </div>
-          
-          <div class="col-md-4 seccionRedes">
-            <h4 style="font-weight: lighter;text-align: center;">
-              Nuestras redes
-            </h4>
-            <a href="https://wa.me/543515903606?text=Hola!%20Mi%20nombre%20es%20:%20.%20.%20.%20Vengo%20de%20la%20página%20web%20me%20gustaría%20saber%20más%20sobre%20:" class="contactos" target="_blank">
-              <i class="icon-whatsapp "></i>
-            </a>
-            <a href="https://www.instagram.com/atelierdebuenamadera/" class="contactos" target="_blank">
-              <i class="icon-instagram "></i>
-            </a>
-            <a href="tel:3515903606" class="contactos" target="_blank">
-              <i class="icon-phone "></i>
-            </a>
-          </div>
-  
-          <div class="col-md-4 seccionMapa">
-            <h4 style="font-weight: lighter; text-align: center;">
-              Nuestro taller
-            </h4>
-            <iframe class="mapa"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d853.5467090162413!2d-64.30272371187348!3d-31.160090198837473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943281bd56e79a3d%3A0x3741bc629b3b9656!2sCam.%20del%20Cuadrado%20292%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1672680019546!5m2!1ses-419!2sar" width="80%" height="100%" style="border-radius: 3px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-          <div style="text-align: center; padding-top: 1rem;overflow-y: hidden;">
-            <p>
-              Todos los derechos reservados © | Desarrollado por Lucas
-            </p>
+  <header>
+    <nav style="background-color: rgba(0, 0, 0, 0.564);" class="navbar navbar-expand-lg  barraHeader">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../assets/img/logo.png" alt="Logo" width="100" height="100" class="d-inline-block"
+            style="padding: 0%;  margin-left: 10px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+          <div class="navbar-nav mx-auto">
+            <a style="color: white;" class="nav-link linkNav" href="../index.html">Inicio</a>
+            <a style="color: white;" class="nav-link linkNav" href="../pages/ultimos_lanzamientos.html">Lanzamientos</a>
+            <a style="color: rgb(182, 182, 182);" class="nav-link linkNav" href="#">Galería</a>
+            <a style="color: white;" class="nav-link linkNav" href="../pages/nosotros.html">Nosotros</a>
           </div>
         </div>
-    </footer>
-    <script src="../js/back.js"></script>
-    <script src="../js/bootstrap.bundle.js"></script>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <div class="ful-img" id="fulImgBox">
+      <img src="../assets/img/galeria1.jpg" id="fulImg" alt="">
+      <span onclick="closeImg()">X</span>
+    </div>
+
+    <div class="row gridGaleria">
+      <div class="rowLarge">
+        <img src="../assets/img/galeria1.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="../assets/img/galeria2.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="../assets/img/galeria3.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="../assets/img/galeria4.jpg" onclick="openFulImg(this.src)" alt="">
+      </div>
+      <div class="rowShort">
+        <img src="../assets/img/galeria5.png" onclick="openFulImg(this.src)" alt="">
+        <img src="../assets/img/galeria6.png" onclick="openFulImg(this.src)" alt="">
+        <img src="../assets/img/galeria7.png" onclick="openFulImg(this.src)" alt="">
+      </div>
+      <div class="rowLarge">
+        <img src="../assets/img/galeria8.png" onclick="openFulImg(this.src)" alt="">
+        <img src="../assets/img/galeria9.png" onclick="openFulImg(this.src)" alt="">
+        <img src="../assets/img/galeria10.png" onclick="openFulImg(this.src)" alt="">
+        <img src="../assets/img/galeria11.png" onclick="openFulImg(this.src)" alt="">
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div style="background-color: rgba(0, 0, 0, 0.798);" class="row fondoFooter">
+      <div class="col-md-4 seccionLinks">
+        <h4 style="font-weight: lighter;text-align: start;">
+          ¿A dónde quiere ir?
+        </h4>
+        <a class="linkFooter" href="../index.html">Inicio</a>
+        <a class="linkFooter" href="../pages/ultimos_lanzamientos.html">Últimos Lanzamientos</a>
+        <a class="linkFooter" href="#">Galería</a>
+        <a class="linkFooter" href="../pages/nosotros.html">Nosotros</a>
+      </div>
+
+      <div class="col-md-4 seccionRedes">
+        <h4 style="font-weight: lighter;text-align: center;">
+          Nuestras redes
+        </h4>
+        <a href="https://wa.me/543515903606?text=Hola!%20Mi%20nombre%20es%20:%20.%20.%20.%20Vengo%20de%20la%20página%20web%20me%20gustaría%20saber%20más%20sobre%20:"
+          class="contactos" target="_blank">
+          <i class="icon-whatsapp "></i>
+        </a>
+        <a href="https://www.instagram.com/atelierdebuenamadera/" class="contactos" target="_blank">
+          <i class="icon-instagram "></i>
+        </a>
+        <a href="tel:3515903606" class="contactos" target="_blank">
+          <i class="icon-phone "></i>
+        </a>
+      </div>
+
+      <div class="col-md-4 seccionMapa">
+        <h4 style="font-weight: lighter; text-align: center;">
+          Nuestro taller
+        </h4>
+        <iframe class="mapa"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d853.5467090162413!2d-64.30272371187348!3d-31.160090198837473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943281bd56e79a3d%3A0x3741bc629b3b9656!2sCam.%20del%20Cuadrado%20292%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1672680019546!5m2!1ses-419!2sar"
+          width="80%" height="100%" style="border-radius: 3px;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div style="text-align: center; padding-top: 1rem;overflow-y: hidden;">
+        <p>
+          Todos los derechos reservados © | Desarrollado por Lucas
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="../js/back.js"></script>
+  <script src="../js/bootstrap.bundle.js"></script>
 </body>
+
 </html>
